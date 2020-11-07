@@ -118,6 +118,25 @@
             padding: 10px;
         }
 
+        .bottom-right {
+        display: flex;
+        text-align: right;
+
+        }
+
+        .bottom-right:first-child {
+        padding: 20px;
+        background-color: black;
+        }
+
+        .abstand {
+        padding-right: 10px;
+        padding-left: 10px;
+        }
+
+        .abstand:last-child {
+         padding-right: 20px;
+        }
 
     </style>
 
@@ -171,11 +190,11 @@
 </div>
         <hr>
             <div style="display: flex; justify-content: space-between">
-                <div>Português (Brasil)</div>
-                <div style="display: flex; text-align:right">
-                    <div><a href="#">Ajuda</a></div>
-                    <div><a href="#">Privacidade</a></div>
-                    <div><a href="#">Termos</a></div>
+                <div style="padding-left: 20px">Português (Brasil)</div>
+                <div class="bottom-right">
+                    <div class="abstand" ><a href="#">Ajuda</a></div>
+                    <div class="abstand"><a href="#">Privacidade</a></div>
+                    <div class="abstand"><a href="#">Termos</a></div>
                 </div>
             </div>
 
